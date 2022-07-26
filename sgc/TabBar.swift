@@ -20,6 +20,11 @@ struct TabBar: View {
                     Label("Inject", systemImage: "cross.vial")
                 }
             
+            Injection_history_View()
+                .tabItem {
+                    Label("history", systemImage: "book.circle")
+                }
+            
             Gluco_simulator_View()
                 .tabItem {
                     Label("Simulator", systemImage: "scale.3d")
