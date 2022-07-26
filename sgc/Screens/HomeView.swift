@@ -1,21 +1,22 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  sgc
 //
-//  Created by roey ben arieh on 07/06/2022.
+//  Created by roey ben arieh on 26/07/2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("HomeView")
             .padding()
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }

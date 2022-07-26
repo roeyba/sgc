@@ -12,8 +12,9 @@
 		143906F9288FE9C0005E7683 /* Gluco_simulator_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143906F8288FE9C0005E7683 /* Gluco_simulator_View.swift */; };
 		143906FC288FE9E2005E7683 /* InjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143906FB288FE9E2005E7683 /* InjectView.swift */; };
 		143906FE288FE9FB005E7683 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143906FD288FE9FB005E7683 /* TabBar.swift */; };
+		14390700288FFE7B005E7683 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143906FF288FFE7B005E7683 /* HomeView.swift */; };
 		145E08AB284FE8A50096EF9E /* sgcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E08AA284FE8A50096EF9E /* sgcApp.swift */; };
-		145E08AD284FE8A50096EF9E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E08AC284FE8A50096EF9E /* HomeView.swift */; };
+		145E08AD284FE8A50096EF9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E08AC284FE8A50096EF9E /* ContentView.swift */; };
 		145E08AF284FE8A60096EF9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145E08AE284FE8A60096EF9E /* Assets.xcassets */; };
 		145E08B2284FE8A60096EF9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145E08B1284FE8A60096EF9E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -24,9 +25,10 @@
 		143906F8288FE9C0005E7683 /* Gluco_simulator_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gluco_simulator_View.swift; sourceTree = "<group>"; };
 		143906FB288FE9E2005E7683 /* InjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectView.swift; sourceTree = "<group>"; };
 		143906FD288FE9FB005E7683 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		143906FF288FFE7B005E7683 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		145E08A7284FE8A50096EF9E /* sgc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sgc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		145E08AA284FE8A50096EF9E /* sgcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgcApp.swift; sourceTree = "<group>"; };
-		145E08AC284FE8A50096EF9E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		145E08AC284FE8A50096EF9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		145E08AE284FE8A60096EF9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145E08B1284FE8A60096EF9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		145E08B3284FE8A60096EF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		143906F5288FE97D005E7683 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				145E08AC284FE8A50096EF9E /* HomeView.swift */,
+				143906FF288FFE7B005E7683 /* HomeView.swift */,
 				143906FB288FE9E2005E7683 /* InjectView.swift */,
 				143906F8288FE9C0005E7683 /* Gluco_simulator_View.swift */,
 				143906F6288FE9AB005E7683 /* SettingsView.swift */,
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				145E08AA284FE8A50096EF9E /* sgcApp.swift */,
+				145E08AC284FE8A50096EF9E /* ContentView.swift */,
 				143906FD288FE9FB005E7683 /* TabBar.swift */,
 				143906F5288FE97D005E7683 /* Screens */,
 				1402CC742886952E0059B4B1 /* BluetoothSerial.swift */,
@@ -161,11 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145E08AD284FE8A50096EF9E /* HomeView.swift in Sources */,
+				145E08AD284FE8A50096EF9E /* ContentView.swift in Sources */,
 				143906FC288FE9E2005E7683 /* InjectView.swift in Sources */,
 				143906F7288FE9AB005E7683 /* SettingsView.swift in Sources */,
 				145E08AB284FE8A50096EF9E /* sgcApp.swift in Sources */,
 				1402CC752886952E0059B4B1 /* BluetoothSerial.swift in Sources */,
+				14390700288FFE7B005E7683 /* HomeView.swift in Sources */,
 				143906F9288FE9C0005E7683 /* Gluco_simulator_View.swift in Sources */,
 				143906FE288FE9FB005E7683 /* TabBar.swift in Sources */,
 			);
